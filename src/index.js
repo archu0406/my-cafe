@@ -7,8 +7,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 // import AboutPage from './routes/AboutPage'
-import ContactPage from './routes/ContactPage'
+import ContactPage from './routes/ContactPage';
 
+const port = process.env.PORT || 3000;
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
